@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TableLayout
+            android:id="@+id/tabel2"
+            android:layout_width="354dp"
+            android:layout_height="86dp"
+            >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/e1"
+                    android:layout_width="173dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    />
+                <TextView
+                    android:id="@+id/e2"
+                    android:layout_width="173dp"
+                    android:layout_height="43dp"
+                    android:ems="10"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/e3"
+                    android:layout_width="173dp"
+                    android:layout_height="43dp"
+                    android:ems="10"
+                    android:text=""
+                    />
+
+                <TextView
+                    android:id="@+id/e4"
+                    android:layout_width="173dp"
+                    android:layout_height="43dp"
+                    android:ems="10"
+                    />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/buttonSum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUM" />
+
+        <Button
+            android:id="@+id/buttonProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRODUCT" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="173dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            />
+
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
